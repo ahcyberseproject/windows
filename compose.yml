@@ -3,7 +3,9 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "https://phoenixnap.dl.sourceforge.net/project/android-x86/Release%209.0/android-x86_64-9.0-r2.iso?viasf=1"
+      RAM_SIZE: "12G"
+      CPU_CORES: "4"
     devices:
       - /dev/kvm
       - /dev/net/tun
