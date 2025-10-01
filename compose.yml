@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://phoenixnap.dl.sourceforge.net/project/android-x86/Release%209.0/android-x86_64-9.0-r2.iso?viasf=1"
+      VERSION: "https://phoenixnap.dl.sourceforge.net/project/blissos-x86/Official/BlissOS14/FOSS/Surface/Bliss-Surface-v14.10.3-x86_64-OFFICIAL-foss-20241013.iso?viasf=1"
       RAM_SIZE: "12G"
       CPU_CORES: "4"
     devices:
