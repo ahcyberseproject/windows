@@ -3,7 +3,10 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "https://software.download.prss.microsoft.com/dbazure/Win11_25H2_English_x64.iso?t=68d9e770-f774-4563-b52e-2ee89364bb44&P1=1760202880&P2=601&P3=2&P4=UhSC1LbOaIFptLPk9Iggju0x9Z1GxXVW0gDQV%2bwmL9VrToBMbMjySEd8h%2f6aPIGgJdJaqcWF3A3kA8plelwtlzg3eiKCB%2bQvDYKp8kpG8gz08DD2FQeFi4gzKnhWdc54jiEHzZBJOL%2fyjCPIw4sT4s55anANDFIKp%2fQgenWUZUYqAh5VWQAwIF2ADxKtnrWaK6rIe1s57Lrt3YAcmUs%2fFdrDFBXPtKFY%2bjddEoKlddRmjXP0l%2f6AZ3at9ahkevdtOJzorxr34SOhjiKaTZDT82T9%2bc3ly8E6aWCPEzEB3z2lEI%2fH4BSD2nsC2t9Pklkb4eKvY%2fFrQCYoLEh0vnm%2bXg%3d%3d"
+      RAM_SIZE: "12G"
+      CPU_CORES: "4"
+      MANUAL: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
